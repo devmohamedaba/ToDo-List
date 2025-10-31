@@ -1,0 +1,20 @@
+.hover-done,
+.hover-edit,
+.hover-delete {
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-done:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 45px rgb(0, 117, 0);
+}
+
+.hover-edit:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 45px blue;
+}
+
+.hover-delete:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 45px red;
+}
